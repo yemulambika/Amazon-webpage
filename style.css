@@ -1,0 +1,874 @@
+*{
+    margin :0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 120px;
+    
+
+   
+}
+.logo{
+    background-image: url("amazon logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    object-fit: fill;
+    font-size: 50px;
+   
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/*** box2 ****/
+.add_1{
+    color:#CCCCCC;
+    font-size :0.85rem;
+    margin-left:14px
+}
+.add_2{
+    font-size:1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+/**** box-3*****/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 167, 73);
+    width:620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#0f1111;
+}
+/******box4/******************/*
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+/*****box6/*********/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/***********PANEL**********/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:#f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    color: #f3f3f3;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+  
+}
+.head1{
+    font-size:0.75rem ;
+    font-weight:700;
+}
+.head2{
+    font-size :1.0rem;
+    font-weight: 800;
+    margin-right: 14px;
+}
+.panel-deals {
+    /* margin-bottom: 14px; */
+    line-height: 3px;
+    display: flex;
+    height: 30px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+}
+.front-image{
+    margin: 20px;
+}
+.hero-section{
+    height : 250px;
+    width: 100%;
+    background-image: url('front\ image.gif');
+    background-size:cover ;
+}
+.hero-section2{
+    height :180px;
+    width: 100%;
+    background-size:cover ;
+    background-image:url('front\ image\ 2.gif');
+}
+/**************************************************************************************/
+.header-shopee1{
+    background-color:rgba(255, 166, 0, 0.575) ;
+    color:#0f1111;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.shoppe{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+    
+.box{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 250px;
+    width: 17%; 
+    padding: 0px 7px 25px 15px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag{
+    height: 220px;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+.box-content-1{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration{
+    text-decoration: line-through;
+}
+.single-line {
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+.adjusted-sup {
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP{
+    font-size: 0.7em;
+}
+.header{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/***************************************************************/
+.background{
+    background-color: whitesmoke;
+
+}
+.header-shopee-2{background-color:#007869;
+    display: flex;
+    margin-left: 10px;
+    color:white;
+
+}
+.shoppe1{
+    background-color:#007869;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box2{
+    background-color: #007869;
+    border-bottom: 2px solid transparent;
+    height: 300px;
+    width: 100%; 
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    /* margin: 10px; */}
+.box-imag-1{
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+    padding-right: 18px;
+*/}
+.box-content-1{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+/********************************************************************************/
+.header-shopee-3{
+    background-color:rgba(255, 166, 0, 0.575) ;
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+}
+.box-13{background-color: rgba(255, 166, 0, 0.575);
+    border: 2px solid transparent;
+    height: 290px;
+    width: 19%; 
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.box-imag-13{
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    margin-right: 0px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+.shoppe2{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+.box-2{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 18px 0px 18px 20px;
+    margin-top: 25px;
+    margin: 5px;
+}
+.box-imag-2{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.box-content-2{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-2{
+    text-decoration: line-through;
+}
+.single-line-2{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-2{
+    text-decoration: line-through;
+}
+.adjusted-sup-2{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-2{
+    font-size: 0.7em;
+}
+.header-2{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/****************************************************************************************************/
+.box-14{background-color: rgba(255, 166, 0, 0.575);
+    border: 2px solid transparent;
+    height: 290px;
+    width: 19%; 
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.box-imag-14{
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    margin-right: 0px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+
+.shoppe3{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box-3{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag-3{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-content-3{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-3{
+    text-decoration: line-through;
+}
+.single-line-3{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-3{
+    text-decoration: line-through;
+}
+.adjusted-sup-3{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-3{
+    font-size: 0.7em;
+}
+.header-3{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/*********************************************************************************************************/
+.box-15{background-color: rgba(255, 166, 0, 0.575);
+    border: 2px solid transparent;
+    height: 290px;
+    width: 19%; 
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.box-imag-15{
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    margin-right: 0px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+.shoppe-4{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box-4{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag-4{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-content-4{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-4{
+    text-decoration: line-through;
+}
+.single-line-4{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-4{
+    text-decoration: line-through;
+}
+.adjusted-sup-4{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-4{
+    font-size: 0.7em;
+}
+.header-4{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/*****************************************************************************************************/
+.shoppe-5{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box-5{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag-5{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-content-5{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-5{
+    text-decoration: line-through;
+}
+.single-line-5{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-5{
+    text-decoration: line-through;
+}
+.adjusted-sup-5{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-5{
+    font-size: 0.7em;
+}
+.header-5{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/*****************************************************************************************************/
+.shoppe-6{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box-6{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag-6{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-content-6{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-6{
+    text-decoration: line-through;
+}
+.single-line-6{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-6{
+    text-decoration: line-through;
+}
+.adjusted-sup-6{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-6{
+    font-size: 0.7em;
+}
+.header-6{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/****************************************************************************************************/
+.shoppe-7{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 10px;
+}
+    
+.box-7{
+    background-color: white;
+    border: 2px solid transparent;
+    height: 280px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.box-imag-7{
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-content-7{
+    display: flex;
+    font-size: smaller;
+    display: inline;
+    font-size: 13px;
+}
+.decoration-7{
+    text-decoration: line-through;
+}
+.single-line-7{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.line-through-7{
+    text-decoration: line-through;
+}
+.adjusted-sup-7{
+    vertical-align: super; /* Keep it as a superscript */
+    font-size: 0.7em;      /* Make the text smaller if needed */
+    position: relative;
+    top: 2px;       
+    color: #262929;      /* Adjust the vertical position */
+}
+.MRP-7{
+    font-size: 0.7em;
+}
+.header-7{display: inline;
+    justify-content:center;
+    position: fixed;
+    bottom: 580px;
+}
+/***********************************************************************************************************/
+.background-1{
+    background-color: rgba(255, 166, 0, 0.575);
+    height: 70px;
+    width: 100%;
+}
+.shoppe-9{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    /* margin-left: 10px; */
+}
+    
+.box-9{
+    background-color: white;
+    border: 1px solid transparent;
+    height: 300px;
+    width: 17%; 
+    padding: 8px 0px 15px 20px;
+    /* margin-top: 10px;
+    margin: 10px; */
+}
+.box-imag-9{
+    height: 300px;
+    background-size: cover;
+    /* margin-right: 10px;
+    margin-top: 10px; */
+}
+/***************************************************************************************************/
+.shoppe-8{
+    background-color:rgba(128, 128, 128, 0.308);
+    display: flex;
+    justify-content:space-evenly;
+    /* margin-left: 10px; */
+}
+    
+.box-8{
+    background-color: white;
+    border: 0.1px solid transparent;
+    height: 250px;
+    width: 40%; 
+    padding: 0px 0px 0px 0px;
+    /* margin-top: 10px;
+    margin: 10px; */
+}
+.box-imag-8{
+    height: 270px;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+
+    /* margin-right: 10px;
+    margin-top: 10px; */
+}
+/**********************************************************************************************************/
+.shoppe-10{
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px; 
+}
+    
+.box-10{
+    background-color: white;
+    border: 0.1px solid transparent;
+    height: 200px;
+    width: 10%; 
+    padding: 0px 0px 0px 0px;
+    /* margin-top: 10px;
+    margin: 10px; */
+}
+.box-imag-10{
+    height: 150px;
+    background-size: cover;
+    /* margin-right: 10px;
+    margin-top: 10px; */
+}
+/**********************************************************************************************************/
+.shoppe-11{
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly;
+     margin-left: 20px; 
+}
+    
+.box-11{
+    background-color: white;
+    border: 0.1px solid transparent;
+    height: 200px;
+    width: 10%; 
+    padding: 0px 0px 0px 0px;
+    /* margin-top: 10px;
+    margin: 10px; */
+}
+.box-imag-11{
+    height: 150px;
+    background-size: cover;
+    /* margin-right: 10px;
+    margin-top: 10px; */
+}
+/*******************************************************************************************/
+.shoppe-12{
+    background-color:white;
+    /* justify-content:space-evenly; */
+    /* margin-left: 10px; */
+}
+.box-12{
+    background-color: white;
+    border: 0.1px solid transparent;
+    height: 100px;
+    width: 100%; 
+    padding: 0px 0px 0px 0px;
+
+}
+.box-imag-12{
+    height :60px;
+    background-size: cover;
+}
+.header-8{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #37475A;
+    color:white;
+    font-size: 0.9rem;
+    height: 60px;
+}
+.foot-panel{
+    background-color: #26303b;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-panel-2{
+    background-color:#26303b ;
+    color:white;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("amazon logo 2.png");
+    background-size: cover;
+    height: 60px;
+    width:100px;
+}
+.foot-panel-3{
+    background-color: #0f1111;
+    color:white;
+    height: 100px;
+    text-align :center;
+    padding: 25px;
+}
+.pages{
+    font-size:0.7rem;
+
+}
+.copyright{
+    font-size:0.7rem;
+}
+/*********************************************************************************************/
+.shoppe-16{
+    background-color:rgba(255, 166, 0, 0.575);
+    display: flex;
+    justify-content:space-evenly;
+    height: 400px;
+    width: 100%;
+}
+.box-16{background-color: rgba(255, 166, 0, 0.575);
+    border: 1px solid transparent;
+    height: 280px;
+    width: 20%; 
+}
+
+.box-imag-16{
+    height: 280px;
+    background-size: cover;
+     margin-right: 10px;
+    margin-top: 10px; 
+}
+
+.box-17{
+    background-color:white;
+    border: 1px solid transparent;
+    height: 270px;
+    width: 40%; 
+    margin-top: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+.feature1{
+    background-color: white;
+    margin-left: 20px;
+}
+.background-2{
+    background-color: rgba(255, 166, 0, 0.575);
+    height: 100px;
+    width: 100%;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+.header-shopee-5{
+    background-color: rgba(255, 166, 0, 0.575);
+    height: 40px;
+}
